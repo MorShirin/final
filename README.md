@@ -26,3 +26,5 @@ We have a collection for coupons that saves the discounts with the following det
 
 # Architecture 
 The architecture includes the following three tiers: a Mongodb database server which is managed without a schema using collections to gain flexibility and an intuitive way of working. In addition, there is an application server whose role is to manage the central data which works in a nodejs environment. This work environment knows how to decode Java Script and you can develop any application with it. , in addition, the exprss package was used, which is very significant, and a display server that includes the user interface and the html, css, and js technologies
+
+![alt text]([http://url/to/img.png](https://www.rd.com/wp-content/uploads/2020/01/GettyImages-1131335393-e1650030686687.jpg)https://www.rd.com/wp-content/uploads/2020/01/GettyImages-1131335393-e1650030686687.jpg)
