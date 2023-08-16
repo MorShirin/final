@@ -9,7 +9,6 @@ A Manager is able to add a flight, search flights, all of them or search flights
 A Manager is able to view all the existing opinions <br> </br>
 A Manager is able to add and delete users or admins <br> </br>
 A manager can view a graph that organizes customer satisfaction around the destinations <br> </br>
-<br> </br>
 A customer can receive a notification about discounts, if the discount is on a certain destination then it will lead to the relevant flight <br> </br>
 A customer can search for flights, all of them or by destination <br> </br>
 A customer can write a recommendation or an opinion and rate a destination <br> </br>
