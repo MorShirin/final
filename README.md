@@ -15,28 +15,19 @@ We organized the data schema-less to gain flexibility and an intuitive way of wo
 The architecture includes the following three tiers: a Mongodb database server which is managed without a schema using collections to gain flexibility and an intuitive way of working. In addition, there is an application server whose role is to manage the central data which works in a nodejs environment. This work environment knows how to decode Java Script and you can develop any application with it. , in addition, the exprss package was used, which is very significant, and a display layer that includes the user interface and the html, css, and js technologies. We will use MVC format. 
 
 
-
-
-
 ![login](https://github.com/MorShirin/final/assets/135598988/8d25037a-0337-483b-b373-b53d48582323)
-
 
 
 ![search](https://github.com/MorShirin/final/assets/135598988/6fb249f0-505b-480a-9e00-99b2ee242f13)
 
 
-
-
-
 ![discount](https://github.com/MorShirin/final/assets/135598988/0fcfddbb-f7f4-4b0b-815a-8ef362c265c6)
-
 
 
 ![opinion](https://github.com/MorShirin/final/assets/135598988/95ceb50b-93a4-49eb-bc52-5a43b8fb72ca)
 
 
 ![blog](https://github.com/MorShirin/final/assets/135598988/01698e3f-289d-4ea4-bd72-980a1f676ee2)
-
 
 
 ![graph](https://github.com/MorShirin/final/assets/135598988/51937810-8825-400d-b68a-21d92608cc41)
