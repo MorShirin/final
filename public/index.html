@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Airline</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type='text/javascript' src='js/script.js'></script>
+</head>
+<body>
+<video muted autoplay loop id="video-background"><source src="video/login.mp4" type="video/mp4"></video>
+<div id="bodyloginForm"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="cont">
+        <div class="login-box">
+            <img src="images/logo.png" style="width: 150px; height: auto; margin-right: 250px; margin-bottom: 0px;">
+            <h1>Login</h1><br>
+            <form id="loginForm">
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <label for="username">&nbspUsername:&nbsp&nbsp</label>
+                    <input type="text" id="username" name="username" required>&nbsp&nbsp&nbsp
+                </div>
+                <div class="input-container">
+                    <i class="fa fa-key icon"></i>
+                    <label for="password">&nbspPassword:&nbsp&nbsp</label>
+                    <input type="password" id="password" name="password" required>&nbsp&nbsp&nbsp
+                </div><br><br>
+                <button type="submit" onclick="handleLoginFormSubmit(event)">Login</button>
+            </form>
+            <textarea id="requestMessage" style="display: none;">
+                    Please add a new user to the system.
+                    
+                    Username: [username]
+                    Password: [password]
+            </textarea>
+            <a  id="requestLink" class="pink-link"><img src="images/email-icon.png"
+                    alt="Email Icon" width="20" height="20" onclick="handleRequestLinkClick(event)">&nbsp&nbspRequest New User</a>
+        </div>     
+    </div>
+</div>
+</body>
+</html>
+    
